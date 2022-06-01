@@ -1,0 +1,23 @@
+	1. BRAINSTORM
+	A. Axios and Scope, trying to add only 6 board game images to a table. Copying them over to a whole new table in SQL and limiting the count to 6. (nesting axios reqs)
+	B. Creating a pop up menu
+	C. Creating a drop down menu
+	D. Studying axios requests after hours, made much progress
+	E. Capstone project
+	
+
+	2. WRITE
+	E. As a final project for the foundations side of my coding bootcamp, I decided to create a website to help board game lovers everywhere, I called it GameNight. The app let's the user create a database of board games, then displays them on a list. The party host or their guests can search through the catalogue of games and add them to a "tabletop". This tabletop is displayed on the top of the app, any game users add appear there. Then, the party knows what games to prepare! 
+	
+	The technologies I used were: JavaScript. Express, Axios, NodeJS, postgresSQL, HTML and CSS.
+	
+	I chose postgresSQL because I love working with tables and table data. Seeing what you have successfully entered and selected show up in real time is a great feeling.
+	
+	This project helped me learn code more and more each time I wrote something new into it. I solved problems and bugs more and more fluently for every issue tackled. Connecting the front and back end using Axios used to confuse me, now it comes like second nature. 
+	
+	
+	A. While working on my GameNight project, I came across a bug that allowed a user to add an infinite amount of board game images to a tabletop. The images would flow off of it and ruin the website. Hiding the overflow was not enough, I had to limit it. Using simple "if" statements to limit the number of images allowed was an obvious first thought, but something with my axios requests to my backend and database made my app seem to skip over them even after hitting a return keyword.
+	After a bit of research and trying multiple different things, I figured it out! I could nest Axios requests together and wrap an if statement around every nested request. Nesting Axios requests never occurred to me at first, but seemed so simple after writing them out a couple times.
+	
+	B. While working on my GameNight project, I became dedicated on designing a "pop up" menu to display when a user clicks on an image of a board game. I did not want to edit the html underneath the image, I wanted the app to feel more organized. I read articles and watched tutorials until I felt like I had a good grasp of the concept. Using JavaScript, HTML and CSS I was able to design a successful product. I made a function in JS to edit the html of my app, but keep the display invisible. On the click of a board game image, it edits info into that display and turns it visible. Clicking an "X" I added on the pop up will set the display to 0 again, making it disappear. 
+	Working at this small project on my own helped me understand more about JavaScript and all kinds of things you can do with CSS. Learning different ways to solve these problems is what keeps pulling me back to coding and why I love it so much.
